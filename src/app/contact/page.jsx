@@ -1,3 +1,4 @@
+"use client";
 import React, { useState } from 'react';
 
 const Page = () => {
@@ -25,18 +26,18 @@ const Page = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gray-900 text-white py-10 px-6">
+    <div className="min-h-screen bg-slate-200 text-black py-10 px-6">
       <h1 className="text-4xl font-bold text-center mb-8">Contact Us</h1>
       
-      <div className="max-w-4xl mx-auto bg-gray-800 p-8 rounded-lg shadow-lg">
+      <div className="max-w-4xl mx-auto bg-gray-300 p-8 rounded-lg shadow-lg">
         <p className="text-lg mb-6 text-center">
           Got any questions or need more information? We’d love to hear from you!
-          Reach out to us via <a href="mailto:dummy@email.com" className="text-blue-400 hover:underline">dummy@email.com</a> or fill out the form below:
+          Reach out to us via <a href="mailto:dummy@email.com" className="text-blue-400 hover:underline">prepnudge@gmail.com</a> or fill out the form below:
         </p>
 
         <form onSubmit={handleSubmit} className="space-y-6">
           <div>
-            <label htmlFor="name" className="block text-lg mb-1">Your Name</label>
+            <label htmlFor="name" className="block text-lg mb-1 text-slate-800">Your Name</label>
             <input
               type="text"
               id="name"
@@ -44,12 +45,12 @@ const Page = () => {
               value={formData.name}
               onChange={handleInputChange}
               required
-              className="w-full p-3 rounded-md bg-gray-700 text-white focus:outline-none focus:ring-2 focus:ring-indigo-500"
+              className="w-full p-3 rounded-md bg-gray-200 text-slate-900 focus:outline-none focus:ring-2 focus:ring-indigo-500"
             />
           </div>
 
           <div>
-            <label htmlFor="email" className="block text-lg mb-1">Your Email</label>
+            <label htmlFor="email" className="block text-lg mb-1 text-slate-800">Your Email</label>
             <input
               type="email"
               id="email"
@@ -57,12 +58,12 @@ const Page = () => {
               value={formData.email}
               onChange={handleInputChange}
               required
-              className="w-full p-3 rounded-md bg-gray-700 text-white focus:outline-none focus:ring-2 focus:ring-indigo-500"
+              className="w-full p-3 rounded-md bg-gray-200 text-slate-900 focus:outline-none focus:ring-2 focus:ring-indigo-500"
             />
           </div>
 
           <div>
-            <label htmlFor="message" className="block text-lg mb-1">Your Message</label>
+            <label htmlFor="message" className="block text-lg mb-1 text-slate-800">Your Message</label>
             <textarea
               id="message"
               name="message"
@@ -70,7 +71,7 @@ const Page = () => {
               onChange={handleInputChange}
               required
               rows="6"
-              className="w-full p-3 rounded-md bg-gray-700 text-white focus:outline-none focus:ring-2 focus:ring-indigo-500"
+              className="w-full p-3 rounded-md bg-gray-200 text-slate-900 focus:outline-none focus:ring-2 focus:ring-indigo-500"
             ></textarea>
           </div>
 
