@@ -160,7 +160,7 @@ export default function Hero() {
                 transition={{ duration: 0.3 }}
             >
                 <h2 className="text-4xl font-bold">
-                    Ready to Transform Your Institution&apos;s Inquiry Management?
+                    Ready to Transform Your Institutions Inquiry Management?
                 </h2>
                 <p className="mt-4 text-lg">
                     Get started today and streamline your communication process with students.
