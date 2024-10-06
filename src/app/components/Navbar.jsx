@@ -34,10 +34,11 @@ export default function Navbar() {
 
 
     const navigation = useMemo(() => {
-        let baseNav = [{ name: 'Home', url: '/' }];
+        let baseNav = [{ name: 'Home', url: '/' },{ name: 'About Us', url: '/about' },{ name: 'Contact Us', url: '/contact' }];
         if (user?.publicMetadata.role === 'Student') {
             baseNav.push({ name: 'Query', url: '/create' });
             baseNav.push({ name: 'History', url: '/viewHistory' });
+            baseNav.push({ name: 'ChatBot', url: '/chatbot' });
         }
         if (user?.publicMetadata.role === 'Admin') {
             baseNav.push({ name: 'DashBoard', url: '/admin' });

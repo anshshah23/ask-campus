@@ -41,7 +41,7 @@ export default function Hero() {
                             and respond to student inquiries. With automated routing and
                             real-time tracking, simplify student communication like never before.
                         </p>
-                        <Link href="/features">
+                        <Link href="/about">
                             <motion.button
                                 whileHover={{ scale: 1.05, backgroundColor: "rgba(13, 110, 253, 1)" }}
                                 className="bg-indigo-600 text-white font-semibold px-6 py-3 rounded-full shadow-lg transition-all duration-300"
