@@ -36,7 +36,7 @@ const QueryHistoryPage = () => {
       <h2 className="text-3xl mb-6">Your Query History</h2>
 
       {/* Table of Queries */}
-      <div className="overflow-x-auto shadow-lg mb-10">
+      <div className="overflow-x-auto rounded-t-2xl shadow-lg mb-10">
         <table className="min-w-full bg-white">
           <thead>
             <tr className="bg-blue-700 text-white">
@@ -51,7 +51,7 @@ const QueryHistoryPage = () => {
           <tbody>
             {queryData.map((query, index) => (
               <tr key={index} className="bg-gray-100 border-b text-center">
-                <td className="py-2 px-4">{query.content}</td>
+                <td className="py-2 px-4 text-left">{query.content}</td>
                 <td className="py-2 px-4">{query.department}</td>
                 <td className="py-2 px-4">{query.urgencyType}</td>
                 <td className={`py-2 px-4 ${query.status === 'completed' ? 'text-green-600' : query.status === 'inProgress' ? 'text-yellow-500' : 'text-red-500'}`}>
