@@ -45,7 +45,7 @@ const QueryHistoryPage = () => {
               <th className="py-2 px-4">Urgency</th>
               <th className="py-2 px-4">Status</th>
               <th className="py-2 px-4">Date Submitted</th>
-              <th className="py-2 px-4">Completion Date</th>
+              <th className="py-2 px-4">Date Completed</th>
             </tr>
           </thead>
           <tbody>
