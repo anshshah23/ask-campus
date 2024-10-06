@@ -74,10 +74,10 @@ const SignInForm = () => {
   };
 
   return (
-    <div className="min-h-screen flex items-center justify-center p-6">
+    <div className="min-h-screen w-full bg-slate-100 flex items-center justify-center p-6">
       <motion.form
         onSubmit={handleSubmit}
-        className="bg-white shadow-2xl rounded-2xl p-10 max-w-md w-full"
+        className="bg-slate-200 shadow-xl hover:shadow-2xl duration-700 rounded-2xl p-10 max-w-md w-full"
         initial={{ opacity: 0, scale: 0.8 }}
         animate={{ opacity: 1, scale: 1 }}
         transition={{ duration: 0.5 }}
@@ -85,7 +85,7 @@ const SignInForm = () => {
         <h2 className="text-4xl font-extrabold text-center text-gray-800 mb-4">
           Select Your Role
         </h2>
-        <p className="text-center text-sm text-gray-600 mb-6">
+        <p className="text-center text-sm text-red-500 mb-6">
           Note: This cannot be changed later!
         </p>
 
