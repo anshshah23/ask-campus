@@ -92,7 +92,7 @@ export default function Page() {
                 transition={{ duration: 0.8 }}
             >
                 <p className="text-lg">
-                    Can't find an answer? <br /> Submit your query for assistance.
+                    Cannot find an answer? <br /> Submit your query for assistance.
                 </p>
             </motion.div>
             <motion.h1
