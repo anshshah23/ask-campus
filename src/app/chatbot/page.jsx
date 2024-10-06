@@ -91,9 +91,7 @@ export default function Page() {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.8 }}
             >
-                <p className="text-lg">
-                    Cannot find an answer? <br /> Submit your query for assistance.
-                </p>
+                <p className="text-lg">Cannot find an answer? <br /> Submit your query for assistance.</p>
             </motion.div>
             <motion.h1
                 className="text-4xl font-bold mb-8 mt-2 text-center"
