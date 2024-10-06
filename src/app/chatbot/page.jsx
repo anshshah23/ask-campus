@@ -85,14 +85,15 @@ export default function Page() {
 
     return (
         <div className="min-h-screen p-6 flex flex-col justify-center items-center text-slate-900">
-            {/* <motion.div
+            <motion.div
                 className="mt-6 text-center"
                 initial={{ opacity: 0, y: 50 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.8 }}
             >
-                <p className="text-lg">Cannot find an answer? <br /> Submit your query for assistance.</p>
-            </motion.div> */}
+                <p className="text-lg">Can&#39;t find an answer? <br /> Submit your query for assistance.</p>
+
+            </motion.div>
             <motion.h1
                 className="text-4xl font-bold mb-8 mt-2 text-center"
                 initial={{ opacity: 0, y: -50 }}
