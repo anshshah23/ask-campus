@@ -11,7 +11,7 @@ const Page = () => {
         </p>
         
         <div className="bg-gray-300 p-6 rounded-lg shadow-lg mb-6">
-          <h2 className="text-2xl font-semibold mb-2">Abhishek Sharma</h2>
+          <h2 className="text-2xl font-semibold mb-2">Abhishek Pandey</h2>
           <p className="text-lg">
             <strong>Role:</strong> ML Developer<br/>
             Abhishek was responsible for integrating core machine learning functionalities into the project. He worked extensively on developing our chatbot and implementing data analytics features that allow us to extract meaningful insights from user interactions.
